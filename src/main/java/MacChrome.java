@@ -8,9 +8,7 @@ import com.perfecto.reportium.test.result.TestResultFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
@@ -18,7 +16,7 @@ import java.util.Map;
 
 public class MacChrome {
 
-    public static void main(String[] args) throws MalformedURLException, IOException {
+    public static void main(String[] args) throws IOException {
         System.out.println("Run started");
 
         String host = "<Your cloud Name>.perfectomobile.com"; //Example - demo

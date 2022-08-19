@@ -8,7 +8,6 @@ import com.perfecto.reportium.test.result.TestResultFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
